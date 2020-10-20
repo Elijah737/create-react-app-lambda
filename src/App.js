@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
+import routes from './routes'
+import {HashRouter, Link} from 'react-router-dom'
 import "./App.css"
 
 class LambdaDemo extends Component {
@@ -41,6 +43,11 @@ class App extends Component {
             Yo Momma
           </p>
           <LambdaDemo />
+          <HashRouter>
+          <Link to='/2'>22222</Link>
+          <Link to='/'>HOME</Link>
+          {routes}
+          </HashRouter>
         </header>
       </div>
     )
