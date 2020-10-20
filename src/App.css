@@ -1,13 +1,14 @@
 .nav {
   width: 9px;
-  height: 100%;
-  background-color: rgb(25, 156, 156);
+  height: 50%;
+  background-color: rgb(70, 187, 187);
   display: flex;
   flex-direction: column;
   justify-content: start;
   transition: 0.3s;
   overflow: hidden;
   border-radius: 3px;
+  padding-top: 20px;
 }
 
 .nav:hover {
@@ -16,21 +17,26 @@
 
 .App-header {
   display: flex;
-  /* flex-direction: column; */
   align-items: start;
   height: 100vh;
   background-color: rgb(53, 53, 53);
 }
 
 .Link {
-  margin: 5px 10px;
-  color: white;
+  margin: 10px 10px;
+  color: rgb(44, 44, 44);
+  text-decoration: none;
+  transition: .3s;
+}
+
+.Link:hover {
+  color: rgb(107, 107, 107);
 }
 
 .box {
   height: 200px;
   width: 200px;
-  background-color: rgb(119, 155, 155);
+  background-color: rgb(62, 117, 117);
 }
 
 .page {
