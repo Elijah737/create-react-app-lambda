@@ -1,7 +1,8 @@
 .nav {
+  margin-top: 70px;
   width: 9px;
   height: 50%;
-  background-color: rgb(70, 187, 187);
+  background-color: rgb(211, 211, 211);
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -13,6 +14,7 @@
 
 .nav:hover {
   width: 80px;
+  background-color: rgb(70, 187, 187);
 }
 
 .App-header {
