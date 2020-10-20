@@ -12,7 +12,7 @@ class App extends Component {
         <header className="App-header">
           <HashRouter>
           <div className="nav">
-            <Link onClick={something()} className="Link" to='/'>HOME</Link>
+            <Link className="Link" to='/'>HOME</Link>
             <Link className="Link" to='/2'>22222</Link>
             <Link className="Link" to='/LD'>Lambda Demo</Link>
           </div>
