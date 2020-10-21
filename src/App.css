@@ -1,3 +1,7 @@
+:root {
+  --tealColor: rgb(70, 187, 187);
+}
+
 .nav {
   margin-top: 70px;
   width: 9px;
@@ -14,7 +18,7 @@
 
 .nav:hover {
   width: 80px;
-  background-color: rgb(70, 187, 187);
+  background-color: var(--tealColor);
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
@@ -64,4 +68,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.blogHead {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 10px;
+  color: rgb(37, 37, 37);
+}
+
+a {
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(213, 213, 213);
 }

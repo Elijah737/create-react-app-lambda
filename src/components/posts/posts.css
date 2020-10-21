@@ -1,3 +1,7 @@
+:root {
+    --tealColor: rgb(70, 187, 187);
+  }
+
 .post {
     border-bottom: 2px solid black;
     width: 60%;
@@ -8,7 +12,8 @@
 
 .postHead {
     margin-bottom: 5px;
-    color: rgb(146, 146, 146);
+    color: var(--tealColor);
+    /* color: rgb(146, 146, 146); */
 }
 
 h6 {
