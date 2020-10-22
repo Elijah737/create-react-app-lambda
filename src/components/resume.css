@@ -45,3 +45,40 @@
     font-size: 17px;
     line-height: 23px;
 }
+
+.technologies {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    background-image: url("../react.svg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+}
+
+.icon1 {
+    background-image: url("../react.svg");
+}
+
+.icon2 {
+    background-image: url("../java-script.svg");
+}
+
+.icon3 {
+    background-image: url("../html5.svg");
+}
+
+.icon4 {
+    background-image: url("../css3.svg");
+}
+
+.icon5 {
+    background-image: url("../github.svg");
+}
