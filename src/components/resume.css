@@ -1,5 +1,6 @@
 :root {
     --tealColor: rgb(70, 187, 187);
+    --tealHover: rgb(130, 212, 212);
     --grayColor: rgb(77,77,77); 
   }
 
@@ -17,12 +18,17 @@
     border-bottom-left-radius: 7px;
 }
 
-.statementContainer > h1 {
+.statementContainer > a {
     font-family: 'Staatliches', cursive;
     letter-spacing: 7px;
     font-size: 55px;
     margin: 0px;
     color: var(--tealColor);
+    transition: 0.3s;
+}
+
+.statementContainer > a:hover {
+    color: var(--tealHover);
 }
 
 .pic {

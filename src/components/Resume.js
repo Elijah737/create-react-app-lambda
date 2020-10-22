@@ -7,7 +7,7 @@ const Resume = () => {
     <div className="resHead">
     <div className="pic"></div>
         <div className="statementContainer">
-            <h1>Elijah J. Brown</h1>
+            <a href="https://www.linkedin.com/in/elijahbrown737/" >Elijah J. Brown</a>
             <div className="statement">
                 <p>I am a new developer who is eager to learn and grow. I am a recent graduate from  
                     <span><a href="https://devmountain.com"> DevMountain</a></span>, 
