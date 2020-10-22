@@ -26,7 +26,7 @@ const Resume = () => {
         <div className="icon icon4"></div>
         <div className="icon icon5"></div>
     </div>
-    <a href="https://iconscout.com/icons/react" target="_blank">Icons</a> by <a href="https://iconscout.com/contributors/unicons" target="_blank">Unicons Font</a>
+    <a href="https://iconscout.com/icons/react">Icons</a> by <a href="https://iconscout.com/contributors/unicons">Unicons Font</a>
     </div> );
 }
  
