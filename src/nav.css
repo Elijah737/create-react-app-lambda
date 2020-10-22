@@ -1,0 +1,42 @@
+:root {
+    --tealColor: rgb(70, 187, 187);
+  }
+  
+  .nav {
+    margin-top: 70px;
+    width: 9px;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    transition: 0.3s;
+    overflow: hidden;
+    border-radius: 3px;
+    padding-top: 20px;
+  }
+  
+  .nav:hover {
+    width: 80px;
+    background-color: var(--tealColor);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  .App-header {
+    display: flex;
+    align-items: start;
+    height: 100vh;
+    background-color: rgb(42, 42, 42);
+  }
+  
+  .Link {
+    margin: 10px 10px;
+    color: rgb(42, 42, 42);
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+  .Link:hover {
+    color: rgb(107, 107, 107);
+  }
