@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import "./resume.css";
 
 const Resume = () => {
@@ -35,7 +34,7 @@ const Resume = () => {
             </div>
         <p>- React <br/>- Redux <br/>- JS <br/>- HTML <br/>- CSS <br/>- Node.JS <br/>- Axios <br/>- Heroku </p>
         </div>
-        
+
         <div className="project"></div>
         <div className="project"></div>
         <div className="project"></div>
