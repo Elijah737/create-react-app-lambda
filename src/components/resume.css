@@ -81,7 +81,7 @@
 .project {
    background-color: var(--grayColor);
    border-bottom: 2px solid black;
-   height: 250px;
+   height: auto;
    width: 203px;
    display: flex;
    flex-direction: column;
