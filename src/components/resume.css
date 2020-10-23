@@ -1,7 +1,7 @@
 :root {
     --tealColor: rgb(70, 187, 187);
     --tealHover: rgb(130, 212, 212);
-    --grayColor: rgb(77,77,77); 
+    --grayColor: rgb(77,77,77);
   }
 
 .resume {
@@ -72,7 +72,7 @@
 
 .projectCont {
     margin: 50px auto;
-    width: 80%;
+    width: 83%;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -81,8 +81,14 @@
 .project {
    background-color: var(--grayColor);
    border-bottom: 2px solid black;
-   height: 200px;
-   width: 20%;
+   height: 250px;
+   width: 203px;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+   margin: 0 13px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
 }
 
 .projHead > a {
@@ -100,7 +106,22 @@
     color: var(--tealHover);
 }
 
-.project > p {
-    margin-left: 7px;
-    margin-top: 3px;
+.projInfo > p {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0 5px;
+    line-height: 18px;
+    text-align: justify;
+}
+
+.techCont {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    padding-bottom: 0px;
+}
+
+.techCont > p {
+    margin: 0px 10px;
+    margin-bottom: 3px;
 }
