@@ -30,9 +30,12 @@ const Resume = () => {
     
     <div className="projectCont">
         <div className="project">
-            <h3 className="projHead">FOODDOOD</h3>
-            <p>- React <br/>- Redux <br/>- JS <br/>- HTML <br/>- CSS <br/>- Node.JS <br/>- Axios <br/>- Heroku </p>
+            <div className="projHead">
+                <a href="https://github.com/Elijah737/FoodDood">FOODDOOD</a>
+            </div>
+        <p>- React <br/>- Redux <br/>- JS <br/>- HTML <br/>- CSS <br/>- Node.JS <br/>- Axios <br/>- Heroku </p>
         </div>
+        
         <div className="project"></div>
         <div className="project"></div>
         <div className="project"></div>

@@ -85,17 +85,22 @@
    width: 20%;
 }
 
-.projHead {
+.projHead > a {
     font-family: 'Staatliches', cursive;
+    font-size: 20px;
     letter-spacing: 7px;
     color: var(--tealColor);
-    margin: 0 auto;
     padding: 7px;
     text-align: center;
-    /* background-color: rgb(29, 29, 29); */
+    display: flex;
+    justify-content: center;
+}
+
+.projHead:hover > a {
+    color: var(--tealHover);
 }
 
 .project > p {
     margin-left: 7px;
-    margin-top: 7px;
+    margin-top: 3px;
 }
