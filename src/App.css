@@ -28,8 +28,9 @@
 }
 
 .blogHead {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  letter-spacing: 10px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 15px;
   color: rgb(37, 37, 37);
 }
 

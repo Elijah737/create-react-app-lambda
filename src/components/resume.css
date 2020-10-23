@@ -64,29 +64,38 @@
 }
 
 .icon {
-    background-image: url("../react.svg");
     background-size: cover;
     height: 50px;
     width: 50px;
     margin: 0 10px;
 }
 
-.icon1 {
-    background-image: url("../react.svg");
+.projectCont {
+    margin: 50px auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.icon2 {
-    background-image: url("../java-script.svg");
+.project {
+   background-color: var(--grayColor);
+   border-bottom: 2px solid black;
+   height: 200px;
+   width: 20%;
 }
 
-.icon3 {
-    background-image: url("../html5.svg");
+.projHead {
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 7px;
+    color: var(--tealColor);
+    margin: 0 auto;
+    padding: 7px;
+    text-align: center;
+    /* background-color: rgb(29, 29, 29); */
 }
 
-.icon4 {
-    background-image: url("../css3.svg");
-}
-
-.icon5 {
-    background-image: url("../github.svg");
+.project > p {
+    margin-left: 7px;
+    margin-top: 7px;
 }
