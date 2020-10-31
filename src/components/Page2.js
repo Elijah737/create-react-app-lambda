@@ -10,8 +10,7 @@ class Page2 extends Component {
                 <h1>Yo GabbaGabba</h1> 
             <div 
             className="box"> 
-            <p>I don't fuckinh know</p>
-            <p>I don't fuckinh know</p>
+            <p>Netlify contact forms</p>
             </div>
 
             <div className="boxes">

@@ -14,8 +14,8 @@ class App extends Component {
           <HashRouter>
           <div className="nav">
             <Link className="Link" to='/'>Resume</Link>
-            <Link className="Link" to='/2'>22222</Link>
-            <Link className="Link" to='/blog'>DEV Blog</Link>
+            <Link className="Link" to='/2'>Contact</Link>
+            <Link className="Link" to='/blog'>Blog</Link>
           </div>
           {routes}
           </HashRouter>

@@ -29,24 +29,48 @@ const Resume = () => {
     </div>
     
     <div className="projectCont">
+
         <div className="project">
             <div className="projHead">
                 <a href="https://github.com/Elijah737/FoodDood">FOODDOOD</a>
             </div>
-                <div className="projInfo">
-                    <p>This app allows a business to create an account and menu. Users are allowed to create an account, 
-                        view the menus of local businesses and order from those menus. Full authentication with <strong>bcrypt</strong>.
-                    </p>
-                </div>
-                <div className="techCont">
-                    <p>- React <br/>- Redux <br/>- JS <br/>- HTML </p>
-                    <p>- CSS <br/>- Node.JS <br/>- Axios <br/>- Heroku </p>
-                </div>
+            <div className="projInfo">
+                <p>This app allows a business to create an account and menu. Users are allowed to create an account, 
+                    view the menus of local businesses and order from those menus. Full authentication with <strong>bcrypt</strong>.
+                </p>
+            </div>
+            <div className="techCont">
+                <p>- React <br/>- Redux <br/>- JS <br/>- HTML </p>
+                <p>- CSS <br/>- Node.JS <br/>- Axios <br/>- Heroku </p>
+            </div>
         </div>
 
-        <div className="project"></div>
-        <div className="project"></div>
-        <div className="project"></div>
+        <div className="project">
+            <div className="projHead">
+                <a href="https://github.com/MorganShaw/Quiz-Zapp">Quizz Zapp</a>
+            </div>
+            <div className="projInfo">
+                <p>Mixtape air plant bicycle rights prism pour-over meh. 
+                    Waistcoat viral hoodie offal butcher wolf, raw denim drinking vinegar 
+                    ugh kale chips roof party pabst tacos. Hashtag pug echo park.
+                </p>
+            </div>
+            <div className="techCont">
+                <p>- React <br/>- Redux <br/>- JS <br/>- HTML </p>
+                <p>- CSS <br/>- Node.JS <br/>- Axios <br/>- Heroku </p>
+            </div>
+        </div>
+
+        <div className="project">
+            <div className="projHead">
+                <a href="">No DB blog</a>
+            </div>
+        </div>
+        <div className="project">
+            <div className="projHead">
+                <a href="">Digital Art</a>
+            </div>
+        </div>
     </div>
 
     <a href="https://iconscout.com/icons/react">Icons</a> by <a href="https://iconscout.com/contributors/unicons">Unicons Font</a>
