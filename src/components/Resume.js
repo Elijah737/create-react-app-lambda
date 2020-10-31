@@ -63,12 +63,12 @@ const Resume = () => {
 
         <div className="project">
             <div className="projHead">
-                <a href="">No DB blog</a>
+                <a href="https://www.google.com">No DB blog</a>
             </div>
         </div>
         <div className="project">
             <div className="projHead">
-                <a href="">Digital Art</a>
+                <a href="https://www.google.com">Digital Art</a>
             </div>
         </div>
     </div>
